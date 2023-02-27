@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://nexo.io/media/pages/home/205ad5745c-1656927138/atf-bgr.svg);
+    background-color: #122E82;
+    max-height      : 100vh;
+    overflow        : hidden    ;
+
+}
+
+nav {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 20px 30px;
+}
+
+
+nav .logo {
+    cursor: pointer;
+}
+
+nav ul {
+    display        : flex;
+    list-style-type: none;
+    gap            : 30px;
+    color          : #9eb3ee;
+    cursor         : pointer;
+    font-weight    : 500;
+}
+
+nav .nav-buttons {
+    display    : flex;
+    align-items: center;
+    gap        : 20px;
+
+}
+
+nav .nav-buttons a {
+    color          : #9eb3ee;
+    text-decoration: none;
+    cursor         : pointer;
+    font-weight    : 500;
+}
+
+nav .nav-buttons button {
+    padding      : 5px 15px;
+    color        : #1E4DD8;
+    border-radius: 5px;
+    font-weight  : 500;
+    font-size    : 16px;
+    cursor       : pointer;
+}
+
+
+
+.hero-section {
+    display: flex;
+
+    margin             : 80px auto;
+    margin-left        : 200px;
+    background-image   : url("https://nexo.io/media/pages/home/61cb4e7b01-1669636684/nexo-app.png");
+    background-repeat  : no-repeat;
+    background-position: 600px;
+    background-size    : contain;
+    height             : 70vh;
+
+}
+
+.hero-section .hero-left {
+    color         : white;
+    /* margin-left: 400px; */
+    width         : 700px;
+}
+
+
+
+.hero-section .hero-left p.heading {
+    font-size  : 40px;
+    font-weight: 500;
+}
+
+.hero-section .hero-left p span {
+    font-size  : 60px;
+    display    : block;
+    font-weight: 700;
+
+}
+
+p.hero-description {
+    opacity  : 0.75;
+    font-size: 20px;
+    margin   : 20px 0px;
+}
+
+.hero-section button {
+    padding         : 10px 32px;
+    font-weight     : 600;
+    font-size       : 20px;
+    background-color: #00A76A;
+    color           : white;
+    border          : none;
+    border-radius   : 8px;
+    cursor          : pointer;
+}
+
+.hero-right img {
+    width         : 500px;
+    /* margin-left: 200px; */
+}
